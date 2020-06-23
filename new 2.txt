@@ -1,0 +1,14 @@
+#Environment script for sqoop job execution
+
+export CC_PROJ_HOME=/home/hduser/cc_proj
+export FTP_FILE_HOME=/home/hduser/cc_proj/ftp_files
+export SQOOP_JOB_HOME=/home/hduser/cc_proj/sqoop
+export SQOOP_OPTIONFILE_DIR=/home/hduser/cc_proj/sqoop/scripts/optionfile
+export HIVE_SCRIPT_HOME=/home/hduser/cc_proj/hive
+export CCDB_CONNECT_STRING=jdbc:mysql://localhost/ccdb
+export EMPOFFICE_CONNECT_STRING=jdbc:mysql://localhost/empoffice
+export CUSTPAYMENTS_CONNECT_STRING=jdbc:mysql://localhost/custpayments
+export ROOT=root
+export CCDB_USER_ROOT=root
+export CCDB_PWD_ROOT=root
+export EMPOFFICE_ROOT_PWD_FILE=/user/hduser/cc_proj/passwordfile/root.password
